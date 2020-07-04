@@ -5,7 +5,7 @@ function Footer(){
     return(
         <div className = "divFooter">
             <h1>
-                Citi made with s2
+                <p className="footerStyle">Made with &lt; &sol; &gt; and &lt;3 CITi</p>
             </h1>
         </div>
     )

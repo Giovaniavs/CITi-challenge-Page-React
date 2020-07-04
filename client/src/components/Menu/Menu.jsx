@@ -4,13 +4,10 @@ import './Menu.css'
 function Menu() {
     return (
         <div className="divMenu">
-            <h1>
-                Cardapio
+            <h1 className= "cardapioStyle">
+                Cardápio
             </h1>
-
-            <button className = "searchBar">
-                    Navy Bar
-            </button>
+            <input className="searchBar" type="Search"/>
         </div>
     )
 }

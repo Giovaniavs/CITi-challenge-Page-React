@@ -10,9 +10,9 @@ function Cardapio(props){
             </div>
 
             <div className = "descricao">
-                <p>{props.nome}</p>
-                <p>pao e salsicha</p>
-                <p>8 reais</p>
+                <p className="nomeStyle">{props.nome}</p>
+                <p className="descStyle">{props.desc}</p>
+                <p className="precoStyle">{props.preco}</p>
             </div>
 
             <div>
