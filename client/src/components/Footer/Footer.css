@@ -1,0 +1,10 @@
+.divFooter{
+    display: flex;
+    background-color: #F9C202;
+    border: solid 1px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 35px;
+    margin-top: 134px;
+    height: 134px;
+}
