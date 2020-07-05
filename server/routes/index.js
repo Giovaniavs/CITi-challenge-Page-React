@@ -11,12 +11,6 @@ module.exports = (app) => {
     res.sendFile(path.join(__dirname, '../public/index.html'));
   });
 
-  // app.get('/api/examples', (req, res) => {
-  //   Example.model.find((err, items) => {
-  //     if (err) return res.apiError('database error', err);
-  //     res.send(items);
-  //   });
-  // });
 
   app.get('/produtos/list', (req, res) => {
     Produto.model.find((err, items) => {
