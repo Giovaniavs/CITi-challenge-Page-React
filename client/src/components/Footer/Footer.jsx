@@ -4,8 +4,8 @@ import "./Footer.css";
 function Footer(){
     return(
         <div className = "divFooter">
-            <h1>
-                <p className="footerStyle">Made with &lt; &sol; &gt; and &lt;3 CITi</p>
+            <h1 className="styleTitulo">
+                <p className="footerStyle">Made with &lt;/&gt; and &lt;3 CITi</p>
             </h1>
         </div>
     )
