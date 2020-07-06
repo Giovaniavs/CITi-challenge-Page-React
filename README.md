@@ -4,11 +4,11 @@
 
 ### Depois de clonar esse reposiório em alguma pasta no seu pc, voce vai precisar:
 
--Rodar o comando **npm instal** na pasta server e na pasta client:
+-Rodar o comando **npm install** na pasta server e na pasta client:
 
 <img src="./img/ex_1.png" height = 200px>
 
-<img src="./img/ex_2.png" height = 220px>
+<img src="./img/ex_2.png" height = 210px>
 
 -Depois voce vai precisar subir o servidor rodando o comando **node index.js** na pasta server:
 
